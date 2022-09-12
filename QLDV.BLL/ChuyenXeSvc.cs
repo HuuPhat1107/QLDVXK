@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace QLDV.BLL
 {
-    public class ChuyenXeSvc : GenericSvc<ChuyenXeRep, ChuyenXe>
+    public class ChuyenXeSvc:GenericSvc<ChuyenXeRep, ChuyenXe>
     {
         private ChuyenXeRep chuyenxeRep;
         public ChuyenXeSvc()
@@ -26,6 +26,16 @@ namespace QLDV.BLL
             return res;
         }
 
+        public override SingleRsp Delete(int id)
+        {
+            var res = new SingleRsp();
+
+            var m = _rep.Remove(id);
+            res.SetMessage(m);
+
+            return res;
+        }
+
         public SingleRsp CreateChuyenXe(ChuyenXeReq chuyenXeReq)
         {
             var res = new SingleRsp();
@@ -35,14 +45,22 @@ namespace QLDV.BLL
             chuyenxe.Finish = chuyenXeReq.Finish;
 
             res = chuyenxeRep.CreateChuyenXe(chuyenxe);
-            var c = res;
             return res;
         }
 
-        public override SingleRsp Delete(int id)
+       
+        public SingleRsp UpdateChuyenXe(ChuyenXeReq chuyenXeReq, int id)
         {
             var res = new SingleRsp();
-            res.Data = _rep.Remove(id);
+            ChuyenXe chuyenxe = new ChuyenXe();
+            chuyenxe = id > 0 ? _rep.Read(id) : _rep.Read(id);
+            if (chuyenXeReq.GarageId > 0)
+                chuyenxe.GarageId = chuyenXeReq.GarageId;
+            chuyenxe.Start = chuyenXeReq.Start;
+            chuyenxe.Finish = chuyenXeReq.Finish;
+
+            res = chuyenxeRep.UpdateChuyenXe(chuyenxe);
+
             return res;
         }
     }

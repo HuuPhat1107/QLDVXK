@@ -10,16 +10,16 @@ using QLDV.Common.Rsp;
 
 namespace QLDV.DAL
 {
-    public class ChuyenXeRep : GenericRep<QLDVXKContext, ChuyenXe>
+    public class TicketRep : GenericRep<QLDVXKContext, Ticket>
     {
-        public ChuyenXeRep()
+        public TicketRep()
         {
 
         }
 
-        public override ChuyenXe Read(int id)
+        public override Ticket Read(int id)
         {
-            var res = All.FirstOrDefault(c => c.ChuyenXeId == id);
+            var res = All.FirstOrDefault(c => c.TicketId == id);
             return res;
         }
 
@@ -32,8 +32,8 @@ namespace QLDV.DAL
                 {
                     try
                     {
-                        var m = All.First(i => i.ChuyenXeId == id);
-                        var p = context.ChuyenXes.Remove(m);
+                        var m = All.First(i => i.TicketId == id);
+                        var p = context.Tickets.Remove(m);
                         context.SaveChanges();
                         tran.Commit();
                         message = "Delete complete";
@@ -49,7 +49,7 @@ namespace QLDV.DAL
             return message;
         }
 
-        public SingleRsp CreateChuyenXe(ChuyenXe chuyenxe)
+        public SingleRsp CreateTicket(Ticket ticket)
         {
             var res = new SingleRsp();
             using (var context = new QLDVXKContext())
@@ -58,7 +58,7 @@ namespace QLDV.DAL
                 {
                     try
                     {
-                        var p = context.ChuyenXes.Add(chuyenxe);
+                        var p = context.Tickets.Add(ticket);
                         context.SaveChanges();
                         tran.Commit();
                     }
@@ -73,7 +73,7 @@ namespace QLDV.DAL
         }
 
 
-        public SingleRsp UpdateChuyenXe(ChuyenXe chuyenxe)
+        public SingleRsp UpdateTicket(Ticket ticket)
         {
             var res = new SingleRsp();
             using (var context = new QLDVXKContext())
@@ -82,9 +82,9 @@ namespace QLDV.DAL
                 {
                     try
                     {
-                        var p = context.ChuyenXes.Update(chuyenxe);
+                        var p = context.Tickets.Update(ticket);
                         context.SaveChanges();
-                        res.Data = chuyenxe;
+                        res.Data = ticket;
                         tran.Commit();
                     }
                     catch (Exception ex)

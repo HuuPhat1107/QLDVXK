@@ -5797,19 +5797,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LAPTOP MSI\\.nuget\\packages\\": {}
+    "C:\\Users\\Tien\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LAPTOP MSI\\Desktop\\QLDVXK\\QLDV.Common\\QLDV.Common.csproj",
+      "projectUniqueName": "C:\\Users\\Tien\\Documents\\GitHub\\QLDVXK\\QLDV.Common\\QLDV.Common.csproj",
       "projectName": "QLDV.Common",
-      "projectPath": "C:\\Users\\LAPTOP MSI\\Desktop\\QLDVXK\\QLDV.Common\\QLDV.Common.csproj",
-      "packagesPath": "C:\\Users\\LAPTOP MSI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LAPTOP MSI\\Desktop\\QLDVXK\\QLDV.Common\\obj\\",
+      "projectPath": "C:\\Users\\Tien\\Documents\\GitHub\\QLDVXK\\QLDV.Common\\QLDV.Common.csproj",
+      "packagesPath": "C:\\Users\\Tien\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tien\\Documents\\GitHub\\QLDVXK\\QLDV.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LAPTOP MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tien\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5865,7 +5865,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

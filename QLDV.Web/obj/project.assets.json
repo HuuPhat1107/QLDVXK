@@ -6058,19 +6058,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LAPTOP MSI\\.nuget\\packages\\": {}
+    "C:\\Users\\Tien\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LAPTOP MSI\\Desktop\\QLDVXK\\QLDV.Web\\QLDV.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Tien\\Documents\\GitHub\\QLDVXK\\QLDV.Web\\QLDV.Web.csproj",
       "projectName": "QLDV.Web",
-      "projectPath": "C:\\Users\\LAPTOP MSI\\Desktop\\QLDVXK\\QLDV.Web\\QLDV.Web.csproj",
-      "packagesPath": "C:\\Users\\LAPTOP MSI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LAPTOP MSI\\Desktop\\QLDVXK\\QLDV.Web\\obj\\",
+      "projectPath": "C:\\Users\\Tien\\Documents\\GitHub\\QLDVXK\\QLDV.Web\\QLDV.Web.csproj",
+      "packagesPath": "C:\\Users\\Tien\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tien\\Documents\\GitHub\\QLDVXK\\QLDV.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LAPTOP MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tien\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6084,11 +6084,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\LAPTOP MSI\\Desktop\\QLDVXK\\QLDV.BLL\\QLDV.BLL.csproj": {
-              "projectPath": "C:\\Users\\LAPTOP MSI\\Desktop\\QLDVXK\\QLDV.BLL\\QLDV.BLL.csproj"
+            "C:\\Users\\Tien\\Documents\\GitHub\\QLDVXK\\QLDV.BLL\\QLDV.BLL.csproj": {
+              "projectPath": "C:\\Users\\Tien\\Documents\\GitHub\\QLDVXK\\QLDV.BLL\\QLDV.BLL.csproj"
             },
-            "C:\\Users\\LAPTOP MSI\\Desktop\\QLDVXK\\QLDV.Common\\QLDV.Common.csproj": {
-              "projectPath": "C:\\Users\\LAPTOP MSI\\Desktop\\QLDVXK\\QLDV.Common\\QLDV.Common.csproj"
+            "C:\\Users\\Tien\\Documents\\GitHub\\QLDVXK\\QLDV.Common\\QLDV.Common.csproj": {
+              "projectPath": "C:\\Users\\Tien\\Documents\\GitHub\\QLDVXK\\QLDV.Common\\QLDV.Common.csproj"
             }
           }
         }
@@ -6148,7 +6148,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

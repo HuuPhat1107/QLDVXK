@@ -40,3 +40,16 @@ C:\Users\trant\QLDVXK\QLDV.Common\obj\Debug\net6.0\refint\QLDV.Common.dll
 C:\Users\trant\QLDVXK\QLDV.Common\obj\Debug\net6.0\QLDV.Common.pdb
 C:\Users\trant\QLDVXK\QLDV.Common\obj\Debug\net6.0\QLDV.Common.genruntimeconfig.cache
 C:\Users\trant\QLDVXK\QLDV.Common\obj\Debug\net6.0\ref\QLDV.Common.dll
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\bin\Debug\net6.0\QLDV.Common.deps.json
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\bin\Debug\net6.0\QLDV.Common.runtimeconfig.json
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\bin\Debug\net6.0\QLDV.Common.dll
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\bin\Debug\net6.0\ref\QLDV.Common.dll
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\bin\Debug\net6.0\QLDV.Common.pdb
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\obj\Debug\net6.0\QLDV.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\obj\Debug\net6.0\QLDV.Common.AssemblyInfoInputs.cache
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\obj\Debug\net6.0\QLDV.Common.AssemblyInfo.cs
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\obj\Debug\net6.0\QLDV.Common.csproj.CoreCompileInputs.cache
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\obj\Debug\net6.0\QLDV.Common.dll
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\obj\Debug\net6.0\ref\QLDV.Common.dll
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\obj\Debug\net6.0\QLDV.Common.pdb
+C:\Users\Tien\Documents\GitHub\QLDVXK\QLDV.Common\obj\Debug\net6.0\QLDV.Common.genruntimeconfig.cache

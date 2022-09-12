@@ -9,19 +9,20 @@ namespace QLDV.Web.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ChuyenXeController : ControllerBase
+    public class TicketController : ControllerBase
     {
-        private ChuyenXeSvc chuyenxeSvc;
-        public ChuyenXeController()
+
+        private TicketSvc ticketSvc;
+        public TicketController()
         {
-            chuyenxeSvc = new ChuyenXeSvc();
+            ticketSvc = new TicketSvc();
         }
 
         [HttpGet("get-all")]
         public IActionResult getAllChuyenXe()
         {
             var res = new SingleRsp();
-            res.Data = chuyenxeSvc.All;
+            res.Data = ticketSvc.All;
             return Ok(res);
         }
         [HttpGet("{id}")]
@@ -30,9 +31,9 @@ namespace QLDV.Web.Controllers
             try
             {
                 var res = new SingleRsp();
-                res = chuyenxeSvc.Read(id);
+                res = ticketSvc.Read(id);
                 if (res.Data == null)
-                    return StatusCode(StatusCodes.Status404NotFound, "Không tìm thấy chuyến xe");
+                    return StatusCode(StatusCodes.Status404NotFound, "Không tìm thấy vé xe");
                 return Ok(res);
             }
             catch (Exception ex)
@@ -41,25 +42,25 @@ namespace QLDV.Web.Controllers
             }
 
         }
-        [HttpPost("create-chuyenxe")]
-        public IActionResult CreateProduct([FromBody] ChuyenXeReq reqChuyenxe)
+        [HttpPost("create-ticket")]
+        public IActionResult CreateTicket([FromBody] TicketReq reqTicket)
         {
             var res = new SingleRsp();
-            res = chuyenxeSvc.CreateChuyenXe(reqChuyenxe);
+            res = ticketSvc.CreateTicket(reqTicket);
             return Ok(res);
         }
         [HttpPut("update/{id}")]
-        public IActionResult UpdateProduct([FromBody] ChuyenXeReq reqChuyenxe, int id)
+        public IActionResult UpdateProduct([FromBody] TicketReq reqTicket, int id)
         {
-            var res = chuyenxeSvc.UpdateChuyenXe(reqChuyenxe, id);
+            var res = ticketSvc.UpdateTicket(reqTicket, id);
             return Ok(res);
         }
         
         [HttpDelete("delete/{id}")]
-        public IActionResult DeleteChuyenXeById(int id)
+        public IActionResult DeleteTicketById(int id)
         {
             var res = new SingleRsp();
-            res = chuyenxeSvc.Delete(id);
+            res = ticketSvc.Delete(id);
             return Ok(res);
         }
     }
