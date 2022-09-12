@@ -82,6 +82,7 @@ namespace QLDV.DAL
                 {
                     try
                     {
+                        var x = ticket.ChuyenXeId;
                         var p = context.Tickets.Update(ticket);
                         context.SaveChanges();
                         res.Data = ticket;

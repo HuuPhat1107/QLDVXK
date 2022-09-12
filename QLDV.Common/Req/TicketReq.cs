@@ -11,7 +11,7 @@ namespace QLDV.Common.Req
         public TicketReq()
         {
             ChuyenXeId = -1;
-            TimeStart = DateTime.Now;
+            TimeStart = DateTime.Today;
         }
         public TicketReq(int ChuyenXeId, DateTime TimeStart)
         {
